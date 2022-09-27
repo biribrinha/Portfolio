@@ -18,7 +18,30 @@ header a {
     background-image: linear-gradient(rgb(165, 188, 83), rgb(165, 188, 83));
 }
 
-header a:hover{
+header a:hover {
     background-size: 100% 4px, auto;
     justify-content: center;
 }
+
+h1 {
+    font-style: italic;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 120px;
+    letter-spacing: 0.11em;
+    text-indent: 15px;
+    text-align: center;
+}
+
+.icones{
+
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icones img{
+    margin: 15px;
+    width: 110px;
+    }
