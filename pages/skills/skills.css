@@ -46,3 +46,19 @@ h1 {
     margin: 15px;
     width: 110px;
     }
+
+    @media only screen and (max-width: 600px){
+
+        .icones{
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           
+        }
+
+        .icones img{
+            margin: 15px;
+            width: 10px;
+            }
+    }

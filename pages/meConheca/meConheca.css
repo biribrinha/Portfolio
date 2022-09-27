@@ -82,3 +82,22 @@ h2 {
     line-height: 45px;
     letter-spacing: 0.14em;
 }
+
+@media only screen and (max-width: 600px){
+    h1,
+    h2{
+        font-size: 30px;
+    }
+    .perfilTexto{
+        flex-direction: column;
+    }
+
+    .perfilTexto img {
+        width: 180px;
+        margin-bottom: 15px;
+    }
+
+    .balao {
+        width: 100%;
+    }
+}
