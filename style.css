@@ -26,10 +26,11 @@ main {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    justify-content: center;
 }
 
 main img{
-    width: 540px;
+    width: 600px;
 }
 
 
@@ -44,13 +45,41 @@ main img{
     letter-spacing: 0.22em;
 }
 
+.redes_contato{
+    display: flex;
+    justify-content: end;
+    
+}
+
+.redes_contato img{
+    width: 60px;
+    margin: 5px;
+}
 .margin_geral{
     margin: 40px;
 }
 
 @media screen and (max-width: 992px) {
+    main {
+        flex-direction: column;
+    }
     main img{
-        width: 400px;
+        width: 300px;
+    }
+
+    .redes_contato{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .titulo_profissao p {
+    
+        font-style: italic;
+        font-weight: 600;
+        font-size: 39px;
+        line-height: 88px;
+        text-align: center;
+        letter-spacing: 0.22em;
     }
 }
 

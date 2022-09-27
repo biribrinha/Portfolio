@@ -17,7 +17,68 @@ header a {
     background-image: linear-gradient(rgb(228, 78, 63), rgb(228, 78, 63));
 }
 
-header a:hover{
+header a:hover {
     background-size: 100% 4px, auto;
     justify-content: center;
+}
+
+main {
+    text-align: center;
+}
+
+h1,
+h2 {
+    color: #FEEDBF;
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 120px;
+    letter-spacing: 0.11em;
+    text-indent: 15px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.perfilTexto {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.perfilTexto img {
+    width: 280px;
+}
+
+.margin_geral {
+    margin: 50px;
+}
+
+
+.balao {
+    background-color: #FEEDBF;
+    padding: 15px;
+    width: 900px;
+    color: #E44E3F;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 45px;
+    letter-spacing: 0.14em;
+}
+
+.resumoProfissional{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.balaoResumo{
+    background-color: #FEEDBF;
+    padding: 15px;
+    width: 100%;
+    color: #E44E3F;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 45px;
+    letter-spacing: 0.14em;
 }
