@@ -4,9 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #FEEDBF;
     font-family: 'Poppins', sans-serif;
-    ;
 }
 
 
@@ -21,7 +19,7 @@ section {
     overflow: hidden;
     display: flex;
     justify-content: center;
-    height: 55vw;
+    height: 100vh;
     align-items: center;
 }
 
@@ -46,6 +44,29 @@ section {
     margin: 5px;
 }
 
-.margin_geral {
-    margin: 40px;
+
+
+/* me conheça */
+
+#Meconheca {
+    background-image: url(./img/fundao.svg);
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+h3,
+h4 {
+    text-align: center;
+    color: #fff;
+}
+
+.perfilTexto {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
