@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Epilogue', sans-serif;
 }
 
 
@@ -50,6 +52,8 @@ section {
 
 #Meconheca {
     background-image: url(./img/fundao.svg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
     width: 100%;
     display: flex;
@@ -60,13 +64,35 @@ section {
 }
 
 h3,
-h4 {
+h4,
+h5 {
     text-align: center;
     color: #fff;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 100px;
 }
 
 .perfilTexto {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    margin: 0 auto;
+}
+
+.perfilTexto img {
+    width: 300px;
+}
+
+.perfilTexto p {
+    border: 1px solid #fff;
+    width: 50%;
+    padding: 20px;
+}
+
+.resumoProfissional p {
+    border: 1px solid #fff;
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
 }
