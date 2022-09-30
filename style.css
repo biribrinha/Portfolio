@@ -46,6 +46,97 @@ section {
     margin: 5px;
 }
 
+/*ILUSTRAÇÕES*/
+
+.galeria {
+    position: relative;
+    width: 60%;
+    /* Ancho a ocupar por la galería sobre el total disponible */
+    overflow: hidden;
+    margin: 50px auto;
+   
+    background-color: #000;
+    box-shadow: 1px 1px 6px #000;
+}
+
+.galeria:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(./img/oie.png);
+    /* Fondo por defecto */
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+}
+
+.imagen {
+    position: relative;
+    width: 15%;
+    /* Ancho de la miniatura sobre el ancho total de la galería */
+    padding-bottom: 15%;
+    /* Idéntico al anterior para miniaturas cuadradas */
+    background-position: 50% 50%;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.imagen:nth-of-type(1) {
+    background-image: url(./img/esperança.png);
+}
+
+.imagen:nth-of-type(2) {
+    background-image: url(./img/gato.png);
+}
+
+.imagen:nth-of-type(3) {
+    background-image: url(./img/triste.png);
+}
+
+.imagen:nth-of-type(4) {
+    background-image: url(./img/dino.png);
+}
+
+.imagen:before {
+    content: "";
+    position: absolute;
+    top: -700%;
+    /* ((Nºimágenes*2)-1)*100*/
+    left: 100%;
+    width: 566%;
+    /* (10000/ancho_imagen)-100 */
+    height: 400%;
+    /* Nºimagenes*100 */
+    background-image: inherit;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    -moz-transition: all .8s;
+    -webkit-transition: all .8s;
+    transition: all .8s;
+}
+
+.imagen:hover:nth-of-type(1):before {
+    top: 0%;
+    /* (Nº.nth-1)*(-100) */
+}
+
+.imagen:hover:nth-of-type(2):before {
+    top: -100%;
+    /* (Nº.nth-1)*(-100) */
+}
+
+.imagen:hover:nth-of-type(3):before {
+    top: -200%;
+    /* (Nº.nth-1)*(-100) */
+}
+
+.imagen:hover:nth-of-type(4):before {
+    top: -300%;
+    /* (Nº.nth-1)*(-100) */
+}
 
 
 /* me conheça */
