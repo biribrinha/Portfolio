@@ -6,20 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./pages/menu.css">
+    <link rel="stylesheet" href="./menu.css">
     <link rel="shortcut icon" href="./img/coracoes.png" type="image/x-icon">
+    <script type="text/javascript" src="./script.js"></script>
+
     <title>Home</title>
 </head>
 
 <body>
+    <div id="root"></div>
     <header>
-
         <ul class="nav-list">
-            <li><a href="#Home">Home</a></li>
-            <li><a href="#Projetos">Projetos</a></li>
-            <li><a href="#Galeria">Ilustrações</a></li>
-            <li><a href="#Meconheca">Me conheça</a></li>
-
+            <li><a href="#Home" class="nav-item is-active" active-color="orange">Home</a></li>
+            <li><a href="#Projetos" class="nav-item" active-color="orange">Projetos</a></li>
+            <li><a href="#Galeria" class="nav-item" active-color="orange">Ilustrações</a></li>
+            <li><a href="#Meconheca" class="nav-item" active-color="orange">Me conheça</a></li>
         </ul>
     </header>
     <main class="margin_geral ">
@@ -68,13 +69,18 @@
         </section>
 
         <section id="Galeria">
-            <div class="galeria">
+            <!-- <div class="galeria">
                 <div class="imagen"></div>
                 <div class="imagen"></div>
                 <div class="imagen"></div>
                 <div class="imagen"></div>
 
-            </div>
+            </div> -->
+            <!-- LightWidget WIDGET -->
+            <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe
+                src="//lightwidget.com/widgets/d63482f523755210a69e52ae8c317b57.html" scrolling="no"
+                allowtransparency="true" class="lightwidget-widget"
+                style="width:100%;border:0;overflow:hidden;"></iframe>
         </section>
         <section id="Meconheca">
             <div>
@@ -83,7 +89,8 @@
                 <div class="perfilTexto">
                     <img src="./img/perfil.png" alt="">
                     <p>
-                        Oie! sou a julia, tenho 21 anos e além de desenvolver, passo meu tempo ilustrando e brincando com meus gatos.
+                        Oie! sou a julia, tenho 21 anos e além de desenvolver, passo meu tempo ilustrando e brincando
+                        com meus gatos.
                     </p>
                 </div>
                 <h4>Resumo profissional</h4>
@@ -91,10 +98,11 @@
                     <p>
                         Meu primeiro contato com tecnologia foi com o curso de fullstack developer pelo SENAI
                         informática, e foi ali que começou minha jornada na área de desenvolvimento...foi no front-end
-                        que eu me encontrei! <br/>
+                        que eu me encontrei! <br />
                         Fui me aprofundando nos conhecimentos de UI/UX e questões sobre acessibilidade fazendo o curso
                         da estação hack. <br />
-                        Estudo análise e desenvolvimento de sistemas na Faculdade interativa São Paulo e sou estagiária frontend na Left tecnologia.
+                        Estudo análise e desenvolvimento de sistemas na Faculdade interativa São Paulo e sou estagiária
+                        frontend na Left tecnologia.
                     </p>
                 </div>
             </div>
