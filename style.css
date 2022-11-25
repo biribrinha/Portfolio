@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Newsreader:ital,opsz,wght@0,6..72,200;0,6..72,300;0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;0,6..72,800;1,6..72,200;1,6..72,300;1,6..72,400;1,6..72,500;1,6..72,600;1,6..72,700;1,6..72,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Basic&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    font-family: 'Basic', sans-serif;
+}
+
+.logo{
+    font-size: 30px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #E44E3F;
+    height: 50px;
+    font-family: 'Basic', sans-serif;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+li{
+    color: #fff;
+    text-decoration: none;
+    list-style: none;
+    margin: 50px;
+   
+}
+
+.containers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 150px;
+}
+
+.container1 {
+    margin: 50px;
+    width: 500px;
+}
+
+.container1 h1 {
+    font-size: 60px;
+    font-weight: 450;
+    line-height: 1.2;
+    font-family: 'Basic', sans-serif;
+    overflow: hidden;
+    color: #E44E3F;
+}
+
+.container1 p {
+    color: #94989b;
+    font-size: 22px;
+    margin-bottom: 3rem;
+    font-family: 'Basic', sans-serif;
+}
+
+.container1 button {
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 25px;
+    border: 1px solid #E44E3F;
+    font-size: 15px;
+    background-color: #feedbf00 ;
+    color: #E44E3F;
+}
+
+.container1 button:hover {
+
+    background-color: #E44E3F;
+    transition: 0.3s;
+    color: #fff;
+}
+
+.container2 img {
+    width: 680px;
+}
+
+.descricao_habilidades {
+    background-image: url(./assets/img/fundoGatos.png);
+    padding: 120px;
+    text-align: center;
+    font-family: 'Basic', sans-serif;
+    color: #fff;
+    font-size: 50px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-weight: 950;
+}
+
+
+.projetos{
+    background-color: #E44E3F;
+    padding: 320px;
+}
+
+.projetos h2 {
+    font-family: 'Basic', sans-serif;
+    font-size: 60px;
+    color: #fff;
+}
+
+.feedProjetos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.feed{
+    display: flex;
+}
+.cardProjeto{
+    border: 1px solid #fff;
+    margin: 15px;
+    width: 280px;
+    height: 430px;
+    border-radius: 28px;
+}
+
+.cardProjeto img{
+    width: 280px;
+}
+.cardProjeto a{
+    color: #fff;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardProjeto p{
+    text-align: center;
+    font-family: 'Basic', sans-serif;
+    margin: 15px;
+    color: #fff;
+
+}
+
+.cardProjeto button{
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 20px;
+    border: 1px solid #ffffff;
+    font-size: 15px;
+    background-color: #feedbf00 ;
+    color: #ffffff;
+    font-weight: 700;
+
+}
+
+.cardProjeto button:hover {
+
+    background-color: #ffffff;
+    transition: 0.3s;
+    font-weight: 700;
+    color: #E44E3F;
+}
+
+
+.ilustracoes {
+    background-image: url(./assets/img/fundao.svg);
+
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 350px;
+}
+
+
+.ilustracoes h4 {
+    font-family: 'Basic', sans-serif;
+    font-size: 60px;
+    color: #fff;
+    opacity: 1;
+}
+
+.ilustracoes p {
+    font-size: 25px;
+    color: #6c757d;
+    opacity: 1;
+}
+
+.ilustracoes button{
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 25px;
+    border: 1px solid #fff;
+    font-size: 15px;
+    background-color: #feedbf00 ;
+    color: #fff;
+}
