@@ -58,7 +58,7 @@ li{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 150px;
+    padding: 35px;
 }
 
 .container1 {
@@ -98,9 +98,8 @@ li{
     transition: 0.3s;
     color: #fff;
 }
-
 .container2 img {
-    width: 680px;
+    width: 380px;
 }
 
 .descricao_habilidades {
@@ -119,13 +118,14 @@ li{
 
 .projetos{
     background-color: #E44E3F;
-    padding: 320px;
 }
 
 .projetos h2 {
     font-family: 'Basic', sans-serif;
     font-size: 60px;
     color: #fff;
+    text-align: center;
+    padding: 40px;
 }
 
 .feedProjetos {
@@ -218,4 +218,67 @@ li{
     font-size: 15px;
     background-color: #feedbf00 ;
     color: #fff;
+}
+
+.ilustracoes button:hover {
+    background-color: #ffffff;
+    transition: 0.3s;
+    color: #E44E3F;
+}
+
+@media screen and (max-width: 992px){
+
+
+    .containers {
+        flex-direction: column-reverse;
+    }
+
+    
+    .feed{
+        display: block;
+    }
+
+    .cardProjeto{
+        width: 480px;
+        height: 480px;
+    }
+    
+    .cardProjeto img{
+        width: 280px;
+        border-radius: 20px;
+        margin: 15px;
+    }
+    .cardProjeto button{
+        margin: 20px;
+    
+    }
+
+
+    .ilustracoes {
+        padding: 200px;
+    }
+    
+}
+
+@media only screen and (max-width: 600px){
+
+
+    nav {
+        flex-direction: column;
+        height: 130px;
+    }
+    
+    ul{
+        flex-direction: column;
+    }
+
+    li{
+        margin: 5px;
+    }
+    
+    .containers {
+        flex-direction: column-reverse;
+        margin-top: 200px;
+    }
+
 }
