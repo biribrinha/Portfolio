@@ -283,7 +283,7 @@ li {
 
     .containers {
         flex-direction: column-reverse;
-        margin-top: 200px;
+        margin-top: 150px;
     }
 
     .container1 {
@@ -300,17 +300,22 @@ li {
     .container1 p {
         font-size: 18px;
         text-align: justify;
-        margin: 55px;
+        margin-left: 95px;
+        margin-right: 95px;
     }
 
     .container1 button {
         margin: 0 auto;
     }
 
-
+    .container2 img {
+        width: 250px;
+    }
     .descricao_habilidades {
         font-size: 25px;
         font-weight: 920;
+        padding: 70px;
+       
     }
 
     .projetos h2 {
@@ -319,8 +324,13 @@ li {
     }
 
     .cardProjeto {
-        width: 380px;
+        width: 280px;
         height: 480px;
+    }
+
+    .cardProjeto img {
+        width: 280px;
+        margin: 0 auto;
     }
 
     .ilustracoes {
