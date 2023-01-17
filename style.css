@@ -29,9 +29,10 @@ a {
     font-family: 'Basic', sans-serif;
 }
 
-.logo{
+.logo {
     font-size: 30px;
 }
+
 nav {
     display: flex;
     justify-content: space-around;
@@ -46,12 +47,12 @@ ul {
     overflow: hidden;
 }
 
-li{
+li {
     color: #fff;
     text-decoration: none;
     list-style: none;
     margin: 50px;
-   
+
 }
 
 .containers {
@@ -88,7 +89,7 @@ li{
     border-radius: 25px;
     border: 1px solid #E44E3F;
     font-size: 15px;
-    background-color: #feedbf00 ;
+    background-color: #feedbf00;
     color: #E44E3F;
 }
 
@@ -98,6 +99,7 @@ li{
     transition: 0.3s;
     color: #fff;
 }
+
 .container2 img {
     width: 380px;
 }
@@ -116,7 +118,7 @@ li{
 }
 
 
-.projetos{
+.projetos {
     background-color: #E44E3F;
 }
 
@@ -136,10 +138,11 @@ li{
     flex-direction: column;
 }
 
-.feed{
+.feed {
     display: flex;
 }
-.cardProjeto{
+
+.cardProjeto {
     border: 1px solid #fff;
     margin: 15px;
     width: 280px;
@@ -147,10 +150,11 @@ li{
     border-radius: 28px;
 }
 
-.cardProjeto img{
+.cardProjeto img {
     width: 280px;
 }
-.cardProjeto a{
+
+.cardProjeto a {
     color: #fff;
     font-weight: 700;
     display: flex;
@@ -158,7 +162,7 @@ li{
     justify-content: center;
 }
 
-.cardProjeto p{
+.cardProjeto p {
     text-align: center;
     font-family: 'Basic', sans-serif;
     margin: 15px;
@@ -166,13 +170,13 @@ li{
 
 }
 
-.cardProjeto button{
+.cardProjeto button {
     cursor: pointer;
     padding: 15px;
     border-radius: 20px;
     border: 1px solid #ffffff;
     font-size: 15px;
-    background-color: #feedbf00 ;
+    background-color: #feedbf00;
     color: #ffffff;
     font-weight: 700;
 
@@ -210,13 +214,13 @@ li{
     opacity: 1;
 }
 
-.ilustracoes button{
+.ilustracoes button {
     cursor: pointer;
     padding: 15px;
     border-radius: 25px;
     border: 1px solid #fff;
     font-size: 15px;
-    background-color: #feedbf00 ;
+    background-color: #feedbf00;
     color: #fff;
 }
 
@@ -226,59 +230,115 @@ li{
     color: #E44E3F;
 }
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: 992px) {
 
 
     .containers {
         flex-direction: column-reverse;
     }
 
-    
-    .feed{
+
+    .feed {
         display: block;
     }
 
-    .cardProjeto{
+    .cardProjeto {
         width: 480px;
         height: 480px;
     }
-    
-    .cardProjeto img{
+
+    .cardProjeto img {
         width: 280px;
         border-radius: 20px;
         margin: 15px;
     }
-    .cardProjeto button{
+
+    .cardProjeto button {
         margin: 20px;
-    
+
     }
 
 
     .ilustracoes {
         padding: 200px;
     }
-    
+
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 600px) {
 
 
     nav {
         flex-direction: column;
         height: 130px;
     }
-    
-    ul{
+
+    ul {
         flex-direction: column;
     }
 
-    li{
+    li {
         margin: 5px;
     }
-    
+
     .containers {
         flex-direction: column-reverse;
         margin-top: 200px;
+    }
+
+    .container1 {
+        margin: 100px;
+        width: 500px;
+    }
+
+
+    .container1 h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .container1 p {
+        font-size: 18px;
+        text-align: justify;
+        margin: 55px;
+    }
+
+    .container1 button {
+        margin: 0 auto;
+    }
+
+
+    .descricao_habilidades {
+        font-size: 25px;
+        font-weight: 920;
+    }
+
+    .projetos h2 {
+        font-size: 40px;
+        padding: 40px;
+    }
+
+    .cardProjeto {
+        width: 380px;
+        height: 480px;
+    }
+
+    .ilustracoes {
+        padding: 100px;
+    }
+
+    .ilustracoes h4 {
+        text-align: center;
+        font-size: 40px;
+
+    }
+
+    .ilustracoes p {
+        font-size: 20px;
+        text-align: justify;
+    }
+    .ilustracoes button {
+        margin: 0 auto;
     }
 
 }
