@@ -142,10 +142,14 @@ li {
     display: flex;
 }
 
+.feed p{
+    text-align: justify;
+}
+
 .cardProjeto {
     border: 1px solid #fff;
     margin: 15px;
-    width: 280px;
+    width: 300px;
     height: 430px;
     border-radius: 28px;
 }
@@ -334,7 +338,7 @@ li {
     }
 
     .ilustracoes {
-        padding: 100px;
+        padding: 80px;
     }
 
     .ilustracoes h4 {
@@ -344,7 +348,7 @@ li {
     }
 
     .ilustracoes p {
-        font-size: 20px;
+        font-size: 19px;
         text-align: justify;
     }
     .ilustracoes button {
