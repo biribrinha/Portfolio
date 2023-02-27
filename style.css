@@ -21,7 +21,7 @@ html {
 }
 
 a {
-    color: #fff;
+    color: #3739FF;
     text-decoration: none;
     list-style: none;
     display: flex;
@@ -36,7 +36,7 @@ a {
 nav {
     display: flex;
     justify-content: space-around;
-    background-color: #E44E3F;
+    background-color: #f7f7f7;
     height: 50px;
     font-family: 'Basic', sans-serif;
 }
@@ -48,7 +48,7 @@ ul {
 }
 
 li {
-    color: #fff;
+    color: #3739FF;
     text-decoration: none;
     list-style: none;
     margin: 50px;
@@ -73,7 +73,7 @@ li {
     line-height: 1.2;
     font-family: 'Basic', sans-serif;
     overflow: hidden;
-    color: #E44E3F;
+    color: #3739FF;
 }
 
 .container1 p {
@@ -87,21 +87,22 @@ li {
     cursor: pointer;
     padding: 15px;
     border-radius: 25px;
-    border: 1px solid #E44E3F;
+    border: 1px solid #3739FF;
     font-size: 15px;
     background-color: #feedbf00;
-    color: #E44E3F;
+    color: #3739FF;
 }
 
 .container1 button:hover {
 
-    background-color: #E44E3F;
+    background-color: #3739FF;
     transition: 0.3s;
     color: #fff;
 }
 
 .container2 img {
     width: 380px;
+    margin: 30px;
 }
 
 .descricao_habilidades {
@@ -119,13 +120,13 @@ li {
 
 
 .projetos {
-    background-color: #E44E3F;
+    background-color: #f7f7f7;
 }
 
 .projetos h2 {
     font-family: 'Basic', sans-serif;
     font-size: 60px;
-    color: #fff;
+    color: #3739FF;
     text-align: center;
     padding: 40px;
 }
@@ -136,6 +137,7 @@ li {
     justify-content: center;
     text-align: center;
     flex-direction: column;
+
 }
 
 .feed {
@@ -144,22 +146,30 @@ li {
 
 .feed p{
     text-align: justify;
+    
 }
 
 .cardProjeto {
-    border: 1px solid #fff;
+    border: 1px solid #3739FF;
     margin: 15px;
     width: 300px;
-    height: 430px;
+    height: auto;
     border-radius: 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .cardProjeto img {
-    width: 280px;
+    width: 230px;
+    margin: 20px;
+    border-radius: 28px;
+
 }
 
 .cardProjeto a {
-    color: #fff;
+    color: #94989b;
     font-weight: 700;
     display: flex;
     align-items: center;
@@ -170,28 +180,33 @@ li {
     text-align: center;
     font-family: 'Basic', sans-serif;
     margin: 15px;
-    color: #fff;
+    color: #94989b;
 
 }
 
 .cardProjeto button {
     cursor: pointer;
-    padding: 15px;
     border-radius: 20px;
-    border: 1px solid #ffffff;
+    border: 1px solid #3739FF;
     font-size: 15px;
     background-color: #feedbf00;
-    color: #ffffff;
     font-weight: 700;
+    width: 180px;
+    height: 40px;
+    margin: 10px;
 
+}
+
+.cardProjeto button a:hover{
+    color: #fff;
 }
 
 .cardProjeto button:hover {
 
-    background-color: #ffffff;
+    background-color: #3739FF;
     transition: 0.3s;
     font-weight: 700;
-    color: #E44E3F;
+   
 }
 
 
@@ -231,7 +246,7 @@ li {
 .ilustracoes button:hover {
     background-color: #ffffff;
     transition: 0.3s;
-    color: #E44E3F;
+    color: #3739FF;
 }
 
 @media screen and (max-width: 992px) {
@@ -329,7 +344,7 @@ li {
 
     .cardProjeto {
         width: 280px;
-        height: 480px;
+        height: 380px;
     }
 
     .cardProjeto img {
